@@ -25,7 +25,8 @@ variable "USERNAME" {
 }
 
 variable "MYIP" {
-  default = "192.168.1.36"
+  type = list(string)
+  default = ["192.168.1.36/32"]
 }
 
 variable "rmuser" {
