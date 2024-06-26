@@ -1,5 +1,5 @@
 variable "AWS_REGION" {
-  default = "us-east-2"
+  default = "us-east-1"
 }
 
 variable "AMIS" {
@@ -12,11 +12,11 @@ variable "AMIS" {
 }
 
 variable "PUB_KEY_PATH" {
-  default = "vprofilekey"
+  default = "vprofilekey.pub"
 }
 
 variable "PRIV_KEY_PATH" {
-  default = "vprofilekey.pub"
+  default = "vprofilekey"
 
 }
 
@@ -25,7 +25,7 @@ variable "USERNAME" {
 }
 
 variable "MYIP" {
-  default = ""
+  default = "192.168.1.36"
 }
 
 variable "rmuser" {
@@ -60,15 +60,15 @@ variable "VPC_NAME" {
 }
 
 variable "Zone1" {
-  default = "us-east-2a"
+  default = "us-east-1a"
 }
 
 variable "Zone2" {
-  default = "us-east-2b"
+  default = "us-east-1b"
 }
 
 variable "Zone3" {
-  default = "us-east-2c"
+  default = "us-east-1c"
 }
 
 variable "VpcCIDR" {
